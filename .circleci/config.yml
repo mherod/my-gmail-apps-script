@@ -9,7 +9,6 @@ jobs:
     steps:
       - checkout
       - run: echo "$CLASP_KEY1" > ~/.clasprc.json
-      - run: sudo npm i @google/clasp -g
 
       - restore_cache:
           keys:
@@ -17,6 +16,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+      - run: sudo npm i @google/clasp -g
       - run: clasp versions
 
       - save_cache:
