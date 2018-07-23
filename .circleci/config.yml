@@ -18,9 +18,12 @@ jobs:
 
       - run: yarn install
       - run: clasp versions
-      - run: clasp push
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      
+      - run: rm -rf node_modules
+      - run: clasp push
