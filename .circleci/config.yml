@@ -8,8 +8,9 @@ jobs:
 
     steps:
       - checkout
-
-      - run: echo ${CLASP_KEY} | base64 -d > ~/.clasprc.json
+      - run: echo $CLASP_KEY
+      - run: echo $CLASP_KEY | base64 -d
+      - run: echo $CLASP_KEY | base64 -d > ~/.clasprc.json
       - run: clasp versions
 
       - restore_cache:
