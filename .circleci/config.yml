@@ -9,7 +9,6 @@ jobs:
     steps:
       - checkout
       - run: echo "$CLASP_KEY1" > ~/.clasprc.json
-      - run: clasp versions
 
       - restore_cache:
           keys:
@@ -17,7 +16,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-
+      - run: clasp versions
       - run: clasp push
 
       - save_cache:
