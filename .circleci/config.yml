@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - run: echo "$CLASP_KEY1" > ~/.clasprc.json
-      - run: npm i @google/clasp -g
+      - run: sudo npm i @google/clasp -g
 
       - restore_cache:
           keys:
