@@ -9,6 +9,9 @@ jobs:
     steps:
       - checkout
 
+      - run: echo $CLASP_KEY | base64 -d | ~/.clasprc.jsonversions
+      - run: clasp versions
+
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
