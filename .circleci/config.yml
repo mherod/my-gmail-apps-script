@@ -16,7 +16,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-      - run: yarn global add tslint typescript
+      - run: sudo yarn global add tslint typescript
       - run: sudo npm i @google/clasp -g
       - run: npm i @types/google-apps-script
       - run: yarn upgrade

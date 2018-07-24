@@ -1,1 +1,5 @@
 **/node_modules/**
+/.idea/workspace.xml
+/.idea/vcs.xml
+/.idea/my-gmail-apps-script.iml
+/.idea/modules.xml
