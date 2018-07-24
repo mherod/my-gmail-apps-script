@@ -7,5 +7,8 @@
   "license": "MIT",
   "devDependencies": {
     "@google/clasp": "^1.5.0"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "0.0.26"
   }
 }
