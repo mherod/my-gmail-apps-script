@@ -17,6 +17,7 @@ jobs:
 
       - run: yarn install
       - run: sudo npm i @google/clasp -g
+      - run: sudo npm install -g typescript
       - run: clasp versions
 
       - save_cache:
