@@ -1,6 +1,5 @@
 {
-  "timeZone": "Europe/London",
-  "dependencies": {
-  },
-  "exceptionLogging": "STACKDRIVER"
+    "timeZone": "Europe/London",
+    "dependencies": {},
+    "exceptionLogging": "STACKDRIVER"
 }
