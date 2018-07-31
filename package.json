@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "@types/google-apps-script": "0.0.26",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.6"
   }
 }
