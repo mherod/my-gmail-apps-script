@@ -6,7 +6,7 @@
   "author": "Matthew Herod <matthew.herod@myunidays.com>",
   "license": "MIT",
   "devDependencies": {
-    "@google/clasp": "1.5.0",
+    "@google/clasp": "1.5.2",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.7.0",
     "grunt-babel": "7.0.0"
