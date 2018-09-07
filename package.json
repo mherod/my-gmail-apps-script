@@ -9,7 +9,7 @@
     "@google/clasp": "1.5.3",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.7.0",
-    "grunt-babel": "7.0.0"
+    "grunt-babel": "8.0.0"
   },
   "dependencies": {
     "@types/google-apps-script": "0.0.27",
