@@ -12,7 +12,7 @@
     "grunt-babel": "8.0.0"
   },
   "dependencies": {
-    "@types/google-apps-script": "0.0.27",
+    "@types/google-apps-script": "0.0.28",
     "jshint": "^2.9.6"
   }
 }
