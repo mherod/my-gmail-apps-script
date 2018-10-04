@@ -40,9 +40,9 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
-"@types/google-apps-script@0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-0.0.28.tgz#c7745fe996b404bb5c8a91bb7c521586f1404361"
+"@types/google-apps-script@0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-0.0.29.tgz#37d281a18cd27308404d58dba3667528b05e7a92"
 
 abbrev@1:
   version "1.1.1"
