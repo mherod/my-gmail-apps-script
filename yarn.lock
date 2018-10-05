@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@google/clasp@1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@google/clasp/-/clasp-1.6.2.tgz#83e1c49ad5a042e91ad877acaf5734450161a67c"
+"@google/clasp@1.6.3":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@google/clasp/-/clasp-1.6.3.tgz#2bc786cd264310f910ae908e10040f3a75abc613"
   dependencies:
     anymatch "^1.3.2"
     axios "^0.18.0"
