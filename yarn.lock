@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@google/clasp@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@google/clasp/-/clasp-1.6.3.tgz#2bc786cd264310f910ae908e10040f3a75abc613"
+"@google/clasp@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@google/clasp/-/clasp-1.7.0.tgz#c50ec98c29c76866289587a38bff49ce5c206c93"
   dependencies:
     anymatch "^1.3.2"
     axios "^0.18.0"
@@ -13,15 +13,19 @@
     commander "^2.15.1"
     connect "^3.6.6"
     del "^3.0.0"
-    dotf "^1.0.3"
+    dotf "^1.2.0"
+    ellipsize "^0.1.0"
     find-parent-dir "^0.3.0"
     fs "^0.0.1-security"
+    fuzzy "^0.1.3"
     google-auth-library "^2.0.0"
     googleapis "^34.0.0"
     http-shutdown "^1.2.0"
     inquirer "^5.2.0"
+    inquirer-autocomplete-prompt "1.0.1"
     is-online "^7.0.0"
     mkdirp "^0.5.1"
+    multimatch "^2.1.0"
     opn "^5.3.0"
     path "^0.12.7"
     pluralize "^7.0.0"
@@ -31,7 +35,7 @@
     recursive-readdir "^2.2.2"
     split-lines "^1.1.0"
     string.prototype.padend "^3.0.0"
-    ts2gas "^1.2.0"
+    ts2gas "^1.3.0"
     ucfirst "^1.0.0"
     url "^0.11.0"
     watch "^1.0.2"
@@ -120,6 +124,10 @@ arr-flatten@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e136644316c99669ea5ae91f1"
 
+array-differ@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/array-differ/-/array-differ-1.0.0.tgz#eff52e3758249d33be402b8bb8e564bb2b5d4031"
+
 array-union@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
@@ -133,6 +141,10 @@ array-uniq@^1.0.1:
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
+
+arrify@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
 asn1@~0.2.3:
   version "0.2.3"
@@ -1006,9 +1018,9 @@ domutils@1.5:
     dom-serializer "0"
     domelementtype "1"
 
-dotf@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/dotf/-/dotf-1.0.3.tgz#d22131d85a0f60f432bd906a7a8bed2a52f674c4"
+dotf@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/dotf/-/dotf-1.2.0.tgz#27eb740e808513842101ec7c989ddf024a1d2c11"
   dependencies:
     jsonfile "^3.0.1"
     resolve-file "^0.3.0"
@@ -1038,6 +1050,10 @@ ee-first@1.1.1:
 electron-to-chromium@^1.3.47:
   version "1.3.52"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.52.tgz#d2d9f1270ba4a3b967b831c40ef71fb4d9ab5ce0"
+
+ellipsize@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ellipsize/-/ellipsize-0.1.0.tgz#9d43682d44b91ad16ebd84268ac103170a6553f8"
 
 encodeurl@~1.0.1:
   version "1.0.2"
@@ -1312,6 +1328,10 @@ fsevents@^1.0.0:
 function-bind@^1.0.2, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+
+fuzzy@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/fuzzy/-/fuzzy-0.1.3.tgz#4c76ec2ff0ac1a36a9dccf9a00df8623078d4ed8"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -1625,6 +1645,15 @@ inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, i
 ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
+
+inquirer-autocomplete-prompt@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/inquirer-autocomplete-prompt/-/inquirer-autocomplete-prompt-1.0.1.tgz#e4be98a9e727ea5160937e33f8724e70464e3c4d"
+  dependencies:
+    ansi-escapes "^3.0.0"
+    chalk "^2.0.0"
+    figures "^2.0.0"
+    run-async "^2.3.0"
 
 inquirer@^5.2.0:
   version "5.2.0"
@@ -2053,7 +2082,7 @@ mimic-response@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
 
-minimatch@3.0.4, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
+minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -2089,6 +2118,15 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
+multimatch@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/multimatch/-/multimatch-2.1.0.tgz#9c7906a22fb4c02919e2f5f75161b4cdbd4b2a2b"
+  dependencies:
+    array-differ "^1.0.0"
+    array-union "^1.0.1"
+    arrify "^1.0.0"
+    minimatch "^3.0.0"
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -2646,7 +2684,7 @@ rimraf@^2.2.8, rimraf@^2.6.1:
   dependencies:
     glob "^7.0.5"
 
-run-async@^2.2.0:
+run-async@^2.2.0, run-async@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
   dependencies:
@@ -2892,9 +2930,9 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-ts2gas@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/ts2gas/-/ts2gas-1.2.0.tgz#19a1a4f1d1bf21a7f7cfaecd83e40b2a9708bafd"
+ts2gas@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ts2gas/-/ts2gas-1.3.0.tgz#63bdc4b8695eec221b7bd7f1e0a25932e112543b"
   dependencies:
     typescript "^2.9.2"
 
