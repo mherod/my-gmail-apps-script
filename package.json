@@ -6,13 +6,13 @@
   "author": "Matthew Herod <matthew.herod@myunidays.com>",
   "license": "MIT",
   "devDependencies": {
-    "@google/clasp": "1.6.3",
+    "@google/clasp": "2.1.0",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.7.0",
     "grunt-babel": "8.0.0"
   },
   "dependencies": {
-    "@types/google-apps-script": "0.0.31",
-    "jshint": "^2.9.6"
+    "@types/google-apps-script": "0.0.51",
+    "jshint": "^2.10.2"
   }
 }
