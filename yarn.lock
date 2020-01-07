@@ -43,10 +43,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@types/google-apps-script@0.0.51":
-  version "0.0.51"
-  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-0.0.51.tgz#cc62a5d9b1b32477e8999f9b9827a51bf2f05903"
-  integrity sha512-MbKe+w1Skl5LkMiYumOKNZYS7OljC5OCZafAJd9WEhF1HhACB7tarxt0dMa39FswqEdoCUDJiqeC6QFlKMo0Lw==
+"@types/google-apps-script@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-1.0.8.tgz#3b4f740410fda94d9dea12bab102aa7103d3bbb8"
+  integrity sha512-Ih8o3Gyg1+L2pe2Ck89cd+Lmi/CXUbTzSRWJEFKGWFwohcyUva4eHtW75SX2XCM9PqR9x41BtuEdIQJaVSTnLg==
 
 abbrev@1:
   version "1.1.1"
